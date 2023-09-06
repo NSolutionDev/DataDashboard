@@ -2,6 +2,7 @@ import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 
 export interface AppConfig {
+  apiKey: string;
   managementApiUrl: string;
   catalogUrl: string;
   storageAccount: string;
